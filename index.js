@@ -52,7 +52,7 @@ index.post('/v1', (req, res) => {
         html:  `<p>Name: ${data.name}</p>
                 <p>Email: ${data.email}</p>
                 <p>Service Requested: ${data.service}</p>
-                <p>${data.message}</p>
+                <p>Message: ${data.message}</p>
                 `
     }
 
